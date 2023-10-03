@@ -1,0 +1,2 @@
+# Leaky bucket: The leaky bucket algorithm works similarly to the Token Bucket. It's called "leaky" because it works like a real-life leaky bucket: the bucket has a constant leak, and if the water (or in this case, requests) pours in too fast and the bucket fills up, the extra water is immediately discarded, just like requests would be throttled. It can be used in cases like video streaming where data consistency and steady rate transmitting are important.
+# https://en.wikipedia.org/wiki/Leaky_bucket

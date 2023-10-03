@@ -1,0 +1,2 @@
+# Token Bucket: In this approach, tokens are added to a bucket at a specific rate. When a request comes in, the server tries to remove a token from the bucket to process the request. If no tokens are left, the server throttles the request. Token bucket is useful where we want to allow some degree of bursting beyond a base rate. It can be used in network traffic management, where you might want to allow occasional bursting of traffic but limit it overall.
+# https://www.geeksforgeeks.org/token-bucket-algorithm-in-computer-science/
